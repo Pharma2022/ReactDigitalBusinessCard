@@ -1,0 +1,71 @@
+*, *::before,*::after{box-sizing: border-box;}
+html, body { margin: 0; 
+padding: 0;}
+body{font-family: 'Inter',sans-serif;
+background: #1A1B21;color: #DCDCDC;
+}
+
+header,.container,.image,nav,.footer{
+    width: 22em;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;}
+
+nav{flex-direction: column;}
+
+nav h2{
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-bottom: 0;}
+
+nav h4{
+font-size:0.85em;
+color: #F3BF99;}
+nav h5{ font-size:0.7em;}
+
+nav h4, nav h5{
+font-weight: lighter;
+margin: 0.5em;}
+
+.links{
+display: flex;
+justify-content: space-evenly;
+margin: 0.7rem ;}
+
+.links i { margin-right: 0.25rem;}
+a {text-decoration: none;
+    font-size: 0.85rem;}
+    
+.email,.linkedin{
+width: 42%;
+padding: 0.625em ;
+border-radius: 0.4em;
+justify-content: space-evenly;}
+.linkedin{ background: #5093E2;}
+.email{background: #D1D5DB;}
+.linkedin a{  color: whitesmoke;}
+.email a{ color: navy;}
+i{margin: auto;}
+.image{
+height: 28em;
+background-image: url( "./Shah.jpg");
+background-size: cover;}
+
+p{font-size: 0.75rem;
+    line-height: 1.16rem;
+    text-align: justify;
+    letter-spacing: 0.0125rem;}
+.container{
+flex-direction: column;
+ text-align: left;
+padding: 0.5em ;}
+
+.mt,.mb{
+font-size: 1rem;
+margin-bottom: 0
+
+}
+.mb{ margin-bottom: 0;}
+
+.footer i{font-size: 1.75em;}
